@@ -1,16 +1,15 @@
 ---
-title: Projects
+title: Tools & Projects
 nav:
   order: 2
-  tooltip: Software, datasets, and more
+  tooltip: Open-source tools, dashboards, and more
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Projects
+# {% include icon.html icon="fa-solid fa-wrench" %}Tools & Projects
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+We build open-source software and operational tools for satellite-based water-resource monitoring. Our packages are designed to be globally scalable, reproducible, and accessible to researchers and water managers alike.
 
-{% include tags.html tags="publication, resource, website" %}
+{% include tags.html tags="software, reservoirs, streamflow, website" %}
 
 {% include search-info.html %}
 

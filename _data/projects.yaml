@@ -1,47 +1,41 @@
-- title: Cool Dataset
-  subtitle: a subtitle
+- title: Reservoir Assessment Tool (RAT)
+  subtitle: Python package · ratdocs.io
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-
-- title: Cool Package
-  subtitle: a subtitle
-  group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-    - publication
-
-- title: Cool Web App
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  image: images/background-gev-1.jpeg
+  link: https://ratdocs.io
+  description: >
+    A conda-installable Python framework for globally monitoring reservoir operations —
+    inflow, storage change, evaporation, surface area, and outflow — using satellite remote sensing
+    and hydrological modelling. Adopted by the Mekong River Commission as an operational decision-support tool.
+  repo: SERVIR/RATv3
   tags:
     - software
+    - reservoirs
+    - remote sensing
 
-- title: Cool Web Server
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: ResORR
+  subtitle: Reservoir Operations driven River Regulation
+  group: featured
+  image: images/background-gev-1.jpeg
+  link: https://doi.org/10.1016/j.envsoft.2024.106026
+  description: >
+    A globally scalable satellite-data-driven algorithm that predicts regulated river flow
+    by coupling satellite-estimated reservoir state with a mass-balance model.
+    Validated on the Cumberland River Basin; improves regulated flow simulation by >50% over unregulated models.
   tags:
     - software
+    - streamflow
+    - regulated rivers
+
+- title: RAT-Mekong Decision Support System
+  subtitle: Operational monitoring for the Mekong Basin
+  image: images/background-gev-1.jpeg
+  link: https://depts.washington.edu/saswe/mekong/
+  description: >
+    An operational dashboard for near-real-time monitoring of reservoir dynamics
+    across the Mekong River Basin, co-developed with the Mekong River Commission (MRC)
+    and adopted as an official decision-support tool.
+  tags:
+    - website
+    - reservoirs
+    - Mekong

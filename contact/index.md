@@ -7,71 +7,53 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
 {%
   include button.html
   type="email"
-  text="jane@smith.com"
-  link="jane@smith.com"
+  text="pritam.das [at] iitb.ac.in"
+  link="pritam.das&#64;iitb.ac.in"
 %}
 {%
   include button.html
-  type="phone"
-  text="(555) 867-5309"
-  link="+1-555-867-5309"
+  type="external"
+  text="Google Scholar"
+  link="https://scholar.google.com/citations?user=lrfA5goAAAAJ"
 %}
 {%
   include button.html
-  type="address"
-  tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps"
+  type="github"
+  text="pritamd47"
+  link="pritamd47"
+%}
+{%
+  include button.html
+  type="linkedin"
+  text="pdas47"
+  link="pdas47"
 %}
 
 {% include section.html %}
 
 {% capture col1 %}
 
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
+**Pritam Das**  
+Assistant Professor  
+Centre of Studies in Resources Engineering (CSRE)  
+Indian Institute of Technology Bombay  
+Powai, Mumbai — 400 076  
+Maharashtra, India
 
 {% endcapture %}
 
 {% capture col2 %}
 
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
+**Prospective students and collaborators**  
+Please read the [Join](../join) page before reaching out.
+Include a brief description of your background and what you would like to work on.
+
+**Media / outreach**  
+Email is the best way to reach us.
 
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 %}
-
-{% include section.html dark=true %}
-
-{% capture col1 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col2 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col3 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 col3=col3 %}

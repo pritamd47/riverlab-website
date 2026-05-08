@@ -1,19 +1,19 @@
 # site properties and page defaults
-title: Lab Website Template
-subtitle: by the Greene Lab
-description: An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.
-header: images/background.jpg
-footer: images/background.jpg
+title: RIVER Lab
+subtitle: Remote Sensing, Informatics & Visualization for Earth Resources · IIT Bombay
+description: Research lab at CSRE, IIT Bombay working on satellite remote sensing, hydrological modelling, and water-resource management for regulated rivers and reservoirs.
+url: https://riverlab.in
+header: images/background-gev-1.jpeg
+footer: images/background-gev-1.jpeg
 proofer: false
 
 # site social media and other links
 links:
-  email: contact@your-lab.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
-  github: your-lab
-  twitter: YourLabHandle
-  youtube: YourLabChannel
+  email: pritam.das&#64;iitb.ac.in
+  orcid: 0000-0003-4795-4736
+  google-scholar: lrfA5goAAAAJ
+  github: pritamd47
+  linkedin: pdas47
 
 ### jekyll settings
 

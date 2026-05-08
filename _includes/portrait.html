@@ -22,8 +22,24 @@
       {% include icon.html icon=type.icon %}
     {% endif %}
 
+    {% assign _pimg = member.image %}
+    {% assign _pparts = _pimg | split: "." %}
+    {% assign _pext = _pparts | last %}
+    {% assign _pbase = _pparts | pop | join: "." %}
+    {% assign _pimg_72  = _pbase | append: "-72w."  | append: _pext %}
+    {% assign _pimg_400 = _pbase | append: "-400w." | append: _pext %}
+    {% assign _pimg_800 = _pbase | append: "-800w." | append: _pext %}
     <img
-      src="{{ member.image | relative_url | uri_escape }}"
+      src="{{ _pimg | relative_url | uri_escape }}"
+      srcset="{{ _pimg_72  | relative_url | uri_escape }} 72w,
+              {{ _pimg_400 | relative_url | uri_escape }} 400w,
+              {{ _pimg_800 | relative_url | uri_escape }} 800w,
+              {{ _pimg     | relative_url | uri_escape }} 1200w"
+      {% if include.style == "tiny" %}
+        sizes="72px"
+      {% else %}
+        sizes="(max-width: 600px) 400px, 400px"
+      {% endif %}
       class="portrait-image"
       alt="member portrait"
       loading="lazy"

@@ -5,31 +5,26 @@ nav:
   tooltip: About our team
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}Team
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+We are a growing research group at CSRE, IIT Bombay. We work at the intersection of satellite remote sensing, hydrological modelling, and open-source scientific software. If you are interested in joining us, see the [opportunities page](../join).
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filter="role == 'pi'" %}
-{% include list.html data="members" component="portrait" filter="role != 'pi'" %}
+## Team Members
 
-{% include section.html background="images/background.jpg" dark=true %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+{% include list.html data="members" component="portrait" filter="role == 'principal-investigator'" %}
+{% include list.html data="members" component="portrait" filter="role == 'phd'" %}
 
 {% include section.html %}
 
-{% capture content %}
+## Collaborators
 
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
+We work closely with:
 
-{% endcapture %}
+- **Prof. Faisal Hossain** — University of Washington, Seattle (advisor and long-term collaborator)
+- **Asian Disaster Preparedness Centre (ADPC)** — Bangkok, Thailand
+- **Mekong River Commission (MRC)**
+- **National Center for Atmospheric Research (NCAR)** — Boulder, CO
 
-{% include grid.html style="square" content=content %}
+{% include section.html background="images/background-gev-1.jpeg" dark=true %}
+
+Interested in collaborating or joining the lab? [Get in touch](../contact).
