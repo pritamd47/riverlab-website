@@ -61,6 +61,6 @@ Send an email to **pritam.das [at] iitb.ac.in** with the subject line **"Prospec
   link="pritam.das&#64;iitb.ac.in"
 %}
 
-Note that **PhD positions are filled through the formal IIT Bombay admissions process** — please apply through the official portal and indicate your preference while applying.
+Note that **PhD positions are filled through the formal IIT Bombay admissions process** – please apply through the official portal and indicate your preference while applying.
 
 {% include section.html %}
