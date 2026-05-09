@@ -11,8 +11,20 @@
     class="feature-image"
     aria-label="{{ include.title | default: "feature link" | regex_strip }}"
   >
+    {% assign _img = include.image %}
+    {% assign _parts = _img | split: "." %}
+    {% assign _ext = _parts | last %}
+    {% assign _base = _parts | pop | join: "." %}
+    {% assign _img_400  = _base | append: "-400w."  | append: _ext %}
+    {% assign _img_800  = _base | append: "-800w."  | append: _ext %}
+    {% assign _img_1200 = _base | append: "-1200w." | append: _ext %}
     <img
-      src="{{ include.image | relative_url | uri_escape }}"
+      src="{{ _img | relative_url | uri_escape }}"
+      srcset="{{ _img_400  | relative_url | uri_escape }} 400w,
+              {{ _img_800  | relative_url | uri_escape }} 800w,
+              {{ _img_1200 | relative_url | uri_escape }} 1200w,
+              {{ _img      | relative_url | uri_escape }} 1920w"
+      sizes="(max-width: 480px) 400px, (max-width: 900px) 800px, (max-width: 1400px) 1200px, 1920px"
       loading="lazy"
       alt="{{ include.title | default: "feature image" | regex_strip }}"
       {% include fallback.html %}

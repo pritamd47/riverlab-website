@@ -1,264 +1,463 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1101/2025.06.19.660613
-  title: Scalable data harmonization for single-cell image-based profiling with CytoTable
+- id: doi:10.1029/2024EA004178
+  title: "Multi\u2010Satellite Tracking of Surface Water Storage Change in the Era\
+    \ of Surface Water and Ocean Topography (SWOT) Satellite Mission"
   authors:
-  - Dave Bunten
-  - Jenna Tomkinson
-  - Erik Serrano
-  - Michael J. Lippincott
-  - Kenneth I. Brewer
-  - Vince Rubinetti
-  - Faisal Alquaddoomi
-  - Gregory P. Way
-  publisher: Cold Spring Harbor Laboratory
-  date: '2025-06-25'
-  link: https://doi.org/g9rfr3
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1093/nar/gkad1082
-  title: "The Monarch Initiative in 2024: an analytic platform integrating phenotypes,\
-    \ genes\_and diseases across species"
-  authors:
-  - Tim E Putman
-  - Kevin Schaper
-  - Nicolas Matentzoglu
-  - "Vincent\_P Rubinetti"
-  - "Faisal\_S Alquaddoomi"
-  - Corey Cox
-  - J Harry Caufield
-  - Glass Elsarboukh
-  - Sarah Gehrke
-  - Harshad Hegde
-  - "Justin\_T Reese"
-  - Ian Braun
-  - "Richard\_M Bruskiewich"
-  - Luca Cappelletti
-  - Seth Carbon
-  - "Anita\_R Caron"
-  - "Lauren\_E Chan"
-  - "Christopher\_G Chute"
-  - "Katherina\_G Cortes"
-  - "Vin\xEDcius De\_Souza"
-  - Tommaso Fontana
-  - "Nomi\_L Harris"
-  - "Emily\_L Hartley"
-  - Eric Hurwitz
-  - "Julius\_O B Jacobsen"
-  - Madan Krishnamurthy
-  - "Bryan\_J Laraway"
-  - "James\_A McLaughlin"
-  - "Julie\_A McMurry"
-  - "Sierra\_A T Moxon"
-  - "Kathleen\_R Mullen"
-  - "Shawn\_T O\u2019Neil"
-  - "Kent\_A Shefchek"
-  - Ray Stefancsik
-  - Sabrina Toro
-  - "Nicole\_A Vasilevsky"
-  - "Ramona\_L Walls"
-  - "Patricia\_L Whetzel"
-  - David Osumi-Sutherland
-  - Damian Smedley
-  - "Peter\_N Robinson"
-  - "Christopher\_J Mungall"
-  - "Melissa\_A Haendel"
-  - "Monica\_C Munoz-Torres"
-  publisher: Nucleic Acids Research
-  date: '2023-11-24'
-  link: https://doi.org/gs6kmr
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2023.10.11.560955
-  title: Integration of 168,000 samples reveals global patterns of the human gut microbiome
-  authors:
-  - Richard J. Abdill
-  - Samantha P. Graham
-  - Vincent Rubinetti
-  - Frank W. Albert
-  - Casey S. Greene
-  - Sean Davis
-  - Ran Blekhman
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-10-11'
-  link: https://doi.org/gsvf5z
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1093/nar/gkad289
-  title: 'MyGeneset.info: an interactive and programmatic platform for community-curated
-    and user-created collections of genes'
-  authors:
-  - Ricardo Avila
-  - Vincent Rubinetti
-  - Xinghua Zhou
-  - Dongbo Hu
-  - Zhongchao Qian
-  - Marco Alvarado Cano
-  - Everaldo Rodolpho
-  - Ginger Tsueng
-  - Casey Greene
-  - Chunlei Wu
-  publisher: Nucleic Acids Research
-  date: '2023-04-18'
-  link: https://doi.org/gr5hb5
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2023.01.05.522941
-  title: Hetnet connectivity search provides rapid insights into how two biomedical
-    entities are related
-  authors:
-  - Daniel S. Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J. Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N. Nicholson
-  - Yun Hao
-  - Blair D. Sullivan
-  - Michael W. Nagle
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-01-07'
-  link: https://doi.org/grmcb9
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1093/gigascience/giad047
-  title: Hetnet connectivity search provides rapid insights into how biomedical entities
-    are related
-  authors:
-  - Daniel S Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N Nicholson
-  - Yun Hao
-  - Blair D Sullivan
-  - Michael W Nagle
-  - Casey S Greene
-  publisher: GigaScience
-  date: '2022-12-28'
-  link: https://doi.org/gsd85n
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2022.02.18.461833
-  title: 'MolEvolvR: A web-app for characterizing proteins using molecular evolution
-    and phylogeny'
-  authors:
-  - Jacob D Krol
-  - Joseph T Burke
-  - Samuel Z Chen
-  - Lo M Sosinski
-  - Faisal S Alquaddoomi
-  - Evan P Brenner
-  - Ethan P Wolfe
-  - Vincent P Rubinetti
-  - Shaddai Amolitos
-  - Kellen M Reason
-  - John B Johnston
-  - Janani Ravi
-  publisher: Cold Spring Harbor Laboratory
-  date: '2022-02-22'
-  link: https://doi.org/gstx7j
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1186/s13059-020-02021-3
-  title: Compressing gene expression data using multiple latent space dimensionalities
-    learns complementary biological representations
-  authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Genome Biology
-  date: '2020-05-11'
-  link: https://doi.org/gg2mjh
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1371/journal.pcbi.1007128
-  title: Open collaborative writing with Manubot
-  authors:
-  - Daniel S. Himmelstein
-  - Vincent Rubinetti
-  - David R. Slochower
-  - Dongbo Hu
-  - Venkat S. Malladi
-  - Casey S. Greene
-  - Anthony Gitter
-  publisher: PLOS Computational Biology
-  date: '2020-12-04'
-  link: https://doi.org/c7np
-  orcid: 0000-0002-4655-3773
+  - Pritam Das
+  - Faisal Hossain
+  publisher: Earth and Space Science
+  date: '2025-06-01'
+  link: https://doi.org/hb25mn
+  orcid: 0000-0003-4795-4736
+  exclude:
+  - 10.22541/essoar.170049201.10192660/v1
+  - 10.5194/hess-2023-193
+  - 10.5194/gmd-2023-130
   plugin: sources.py
   file: sources.yaml
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+  image: images/fig-swot-spatial.jpg
   buttons:
-  - type: manubot
-    link: https://greenelab.github.io/meta-review/
+  - type: pdf
+    link: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2024EA004178
   - type: source
-    text: Manuscript Source
-    link: https://github.com/greenelab/meta-review
-  - type: website
-    link: http://manubot.org/
+    link: https://zenodo.org/doi/10.5281/zenodo.14984614
+  description: 'Evaluates SWOT''s capability to estimate reservoir storage dynamics.
+    SWOT shows near-order-of-magnitude improvement in elevation RMSE over pre-SWOT
+    approaches.
+
+    '
   tags:
-  - open science
-  - collaboration
-  repo: greenelab/meta-review
-- id: doi:10.1101/573782
-  title: Sequential compression of gene expression across dimensionalities and methods
-    reveals no single best method or dimensionality
+  - remote sensing
+  - SWOT
+  - reservoirs
+  - surface water
+- id: doi:10.1061/JHYEFF.HEENG-6276
+  title: 'Forecast-Informed Reservoir Operations within a Satellite-Based Framework
+    for Mountainous and High-Precipitation Regions: Case of the 2018 Kerala Floods'
   authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2019-03-11'
-  link: https://doi.org/gfxjxf
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1016/j.csbj.2020.05.017
-  title: Constructing knowledge graphs and their biomedical applications
-  authors:
-  - David N. Nicholson
-  - Casey S. Greene
-  publisher: Computational and Structural Biotechnology Journal
-  date: '2020-01-01'
-  link: https://doi.org/gg7m48
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+  - Pritam Das
+  - Sarath Suresh
+  - Faisal Hossain
+  - Vivek Balakrishnan
+  - Pallipadan Johny Jainet
+  - Hyongki Lee
+  - Miguel Laverde
+  - Kamal Hosen
+  - Chinaporn Meechaiya
+  - Peeranan Towashiraporn
+  publisher: Journal of Hydrologic Engineering
+  date: '2025-04-01'
+  link: https://doi.org/hb25mp
+  orcid: 0000-0003-4795-4736
+  exclude:
+  - 10.22541/essoar.170049201.10192660/v1
+  - 10.5194/hess-2023-193
+  - 10.5194/gmd-2023-130
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.7554/eLife.32822
-  title: Sci-Hub provides access to nearly all scholarly literature
+  image: images/fig-forecast-rat3.jpg
+  description: 'Explores forecast-informed reservoir operations in mountainous, ungauged
+    basins using GEFS precipitation forecasts and the fully satellite-based RAT framework,
+    with application to the 2018 Kerala floods.
+
+    '
+  tags:
+  - reservoirs
+  - forecasting
+  - flood management
+  - RAT
+- id: doi:10.1029/2024EF004815
+  title: "Reconstruction of the Hydro\u2010Thermal Behavior of Regulated River Networks\
+    \ of the Columbia River Basin Using Satellite Remote Sensing and Data\u2010Driven\
+    \ Techniques"
   authors:
-  - Daniel S Himmelstein
-  - Ariel Rodriguez Romero
-  - Jacob G Levernier
-  - Thomas Anthony Munro
-  - Stephen Reid McLaughlin
-  - Bastian Greshake Tzovaras
-  - Casey S Greene
-  publisher: eLife
-  date: '2018-03-01'
-  link: https://doi.org/ckcj
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+  - G. K. Darkwah
+  - Faisal Hossain
+  - Victoria Tchervenski
+  - Gordon Holtgrieve
+  - David Graves
+  - Charles Seaton
+  - Sanchit Minocha
+  - Pritam Das
+  - Shahzaib Khan
+  - Sarath Suresh
+  publisher: Earth's Future
+  date: '2024-10-01'
+  link: https://doi.org/hb25ms
+  orcid: 0000-0003-4795-4736
+  exclude:
+  - 10.22541/essoar.170049201.10192660/v1
+  - 10.5194/hess-2023-193
+  - 10.5194/gmd-2023-130
+  plugin: sources.py
+  file: sources.yaml
+  image: images/fig-thorr.jpg
+  buttons:
+  - type: pdf
+    link: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2024EF004815
+  description: 'Reconstructs 42-year surface-water-temperature records for the Columbia
+    River Basin using Landsat thermal infrared and a Random Forest model, revealing
+    long-term downstream warming.
+
+    '
+  tags:
+  - river temperature
+  - machine learning
+  - regulated rivers
+- id: doi:10.1016/j.envc.2023.100834
+  title: Assessing snow cover patterns in the Indus-Ganga-Brahmaputra River Basins
+    of the Hindu Kush Himalayas using snow persistence and snow line as metrics
+  authors:
+  - Abhilasha Dixit
+  - Ajanta Goswami
+  - Sanjay Jain
+  - Pritam Das
+  publisher: Environmental Challenges
+  date: '2024-01-01'
+  link: https://doi.org/hb25mt
+  orcid: 0000-0003-4795-4736
+  exclude:
+  - 10.22541/essoar.170049201.10192660/v1
+  - 10.5194/hess-2023-193
+  - 10.5194/gmd-2023-130
+  plugin: sources.py
+  file: sources.yaml
+  image: images/fig-sca.jpg
+  buttons:
+  - type: pdf
+    link: https://doi.org/10.1016/j.envc.2023.100834
+  description: 'Uses snow persistence and the RSLE approach to assess snow-cover patterns
+    in the Upper Indus-Ganga-Brahmaputra basins over 2003-2021.
+
+    '
+  tags:
+  - snow cover
+  - Himalayas
+  - climate change
+  - remote sensing
+- id: doi:10.1007/s00382-024-07280-5
+  title: Remote sensing of snow cover dynamics and climate implications in the Indus,
+    Ganga, and Brahmaputra river basins
+  authors:
+  - Abhilasha Dixit
+  - Ajanta Goswami
+  - Sanjay K. Jain
+  - Pritam Das
+  publisher: Climate Dynamics
+  date: '2024-06-17'
+  link: https://doi.org/hb25mv
+  orcid: 0000-0003-4795-4736
+  exclude:
+  - 10.22541/essoar.170049201.10192660/v1
+  - 10.5194/hess-2023-193
+  - 10.5194/gmd-2023-130
+  plugin: sources.py
+  file: sources.yaml
+  image: images/fig-scd.jpg
+  description: 'MODIS-based analysis of annual and seasonal snow-cover area variability
+    in the Indus, Ganga, and Brahmaputra basins from 2003 to 2021, correlated with
+    ERA5 temperature and precipitation.
+
+    '
+  tags:
+  - snow cover
+  - Himalayas
+  - climate dynamics
+  - remote sensing
+- id: doi:10.1016/j.envsoft.2024.106026
+  title: 'ResORR: A globally scalable and satellite data-driven algorithm for river
+    flow regulation due to reservoir operations'
+  authors:
+  - Pritam Das
+  - Faisal Hossain
+  - Sanchit Minocha
+  - Sarath Suresh
+  - George K. Darkwah
+  - Hyongki Lee
+  - Konstantinos Andreadis
+  - Miguel Laverde-Barajas
+  - Perry Oddo
+  publisher: Environmental Modelling &amp; Software
+  date: '2024-05-01'
+  link: https://doi.org/hb25mr
+  orcid: 0000-0003-4795-4736
+  exclude:
+  - 10.22541/essoar.170049201.10192660/v1
+  - 10.5194/hess-2023-193
+  - 10.5194/gmd-2023-130
+  plugin: sources.py
+  file: sources.yaml
+  image: images/fig-resorr-hydro.png
+  description: 'ResORR: a globally scalable satellite-driven algorithm for modelling
+    regulated river flow due to upstream reservoir operations, validated on the Cumberland
+    River Basin (USA).
+
+    '
+  tags:
+  - reservoirs
+  - streamflow
+  - regulated rivers
+  - ResORR
+  - open source
+- id: doi:10.5194/gmd-17-3137-2024
+  title: 'Reservoir Assessment Tool version 3.0: a scalable and user-friendly software
+    platform to mobilize the global water management community'
+  authors:
+  - Sanchit Minocha
+  - Faisal Hossain
+  - Pritam Das
+  - Sarath Suresh
+  - Shahzaib Khan
+  - George Darkwah
+  - Hyongki Lee
+  - Stefano Galelli
+  - Konstantinos Andreadis
+  - Perry Oddo
+  publisher: Geoscientific Model Development
+  date: '2024-04-23'
+  link: https://doi.org/hb25pw
+  orcid: 0000-0003-4795-4736
+  exclude:
+  - 10.22541/essoar.170049201.10192660/v1
+  - 10.5194/hess-2023-193
+  - 10.5194/gmd-2023-130
+  plugin: sources.py
+  file: sources.yaml
+  image: images/fig-rat3.jpg
+  buttons:
+  - type: pdf
+    link: https://gmd.copernicus.org/articles/17/3137/2024/gmd-17-3137-2024.pdf
+  description: 'RAT 3.0: a scalable, user-friendly, open-source software platform
+    for satellite-based monitoring of reservoir storage and regulated river flow,
+    with improved hydrological modelling and multi-sensor remote sensing integration.
+
+    '
+  tags:
+  - open source
+  - RAT
+  - software
+  - reservoirs
+- id: doi:10.1016/j.rse.2024.114149
+  title: Satellite-based tracking of reservoir operations for flood management during
+    the 2018 extreme weather event in Kerala, India
+  authors:
+  - Sarath Suresh
+  - Faisal Hossain
+  - Sanchit Minocha
+  - Pritam Das
+  - Shahzaib Khan
+  - Hyongki Lee
+  - Konstantinos Andreadis
+  - Perry Oddo
+  publisher: Remote Sensing of Environment
+  date: '2024-06-01'
+  link: https://doi.org/gt2m56
+  orcid: 0000-0003-4795-4736
+  exclude:
+  - 10.22541/essoar.170049201.10192660/v1
+  - 10.5194/hess-2023-193
+  - 10.5194/gmd-2023-130
+  plugin: sources.py
+  file: sources.yaml
+  image: images/fig-kerala-floods-1-400w.jpg
+  description: 'RAT 3.0 applied to monitor 19 reservoirs during the 2018 Kerala floods,
+    demonstrating satellite-based tracking of reservoir state in a mountainous, high-precipitation,
+    data-sparse environment.
+
+    '
+  tags:
+  - reservoirs
+  - flood management
+  - RAT
+  - remote sensing
+- id: doi:10.1109/JSTARS.2023.3250354
+  title: Understanding Volume Estimation Uncertainty of Lakes and Wetlands Using Satellites
+    and Citizen Science
+  authors:
+  - Shahzaib Khan
+  - Faisal Hossain
+  - Tamlin Pavelsky
+  - Grant M. Parkins
+  - Megan Rodgers Lane
+  - "Ang\xE9lica M. G\xF3mez"
+  - Sanchit Minocha
+  - Pritam Das
+  - Sheikh Ghafoor
+  - Md. Arifuzzaman Bhuyan
+  - Md. Nazmul Haque
+  - Preetom Kumar Sarker
+  - Partho Protim Borua
+  - Jean-Francois Cretaux
+  - Nicolas Picot
+  - Vivek Balakrishnan
+  - Shakeel Ahmad
+  - Nirakar Thapa
+  - Rajan Bhattarai
+  - Faizan-ul Hasan
+  - Bareerah Fatima
+  - Muhammad Ashraf
+  - Shahryar Khalique Ahmad
+  - Arthur Compin
+  publisher: IEEE Journal of Selected Topics in Applied Earth Observations and Remote
+    Sensing
+  date: '2023-01-01'
+  link: https://doi.org/hb25mw
+  orcid: 0000-0003-4795-4736
+  exclude:
+  - 10.22541/essoar.170049201.10192660/v1
+  - 10.5194/hess-2023-193
+  - 10.5194/gmd-2023-130
+  plugin: sources.py
+  file: sources.yaml
+  image: images/fig-vol-uncert.jpg
+  buttons:
+  - type: pdf
+    link: https://ieeexplore.ieee.org/ielx7/4609443/4609444/10056121.pdf
+- id: doi:10.1029/2022AV000680
+  title: "Building User\u2010Readiness for Satellite Earth Observing Missions: The\
+    \ Case of the Surface Water and Ocean Topography (SWOT) Mission"
+  authors:
+  - Faisal Hossain
+  - Pritam Das
+  - Margaret Srinivasan
+  - Vardis Tsontos
+  - Catalina M. Oaida
+  - Cassandra Nickles
+  - Jack McNelis
+  - Matthew Bonnema
+  - Nicolas Picot
+  - "Santiago Pe\xF1a\u2010Luque"
+  - Bradley Doorn
+  - "Nadya Vinogradova\u2010Shiffer"
+  - Alice Andral
+  - Lucile Gaultier
+  - Indu Jayaluxmi
+  - John Zhu
+  - Nelun Fernando
+  - "Faizan Ul\u2010Hasan"
+  - Bareerah Fatima
+  - Mufeezah Ahsan
+  - C. T. Dhanya
+  - Susantha Jayasinghe
+  - Chinaporn Meechaiya
+  - Miguel Barajas
+  - Vivek Balakrishnan
+  - Hisham Eldardiry
+  - Mohamed Elkholy
+  - Ahmed Abdelrazek
+  - Luciana Fenoglio
+  - Mike Durand
+  - Rui Wei
+  - Tamlin Pavelsky
+  publisher: AGU Advances
+  date: '2022-10-29'
+  link: https://doi.org/hb25mx
+  orcid: 0000-0003-4795-4736
+  exclude:
+  - 10.22541/essoar.170049201.10192660/v1
+  - 10.5194/hess-2023-193
+  - 10.5194/gmd-2023-130
+  plugin: sources.py
+  file: sources.yaml
+  image: images/fig-swot-early-adopters-400w.jpg
+  buttons:
+  - type: pdf
+    link: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2022AV000680
+  description: 'Documents the NASA SWOT Early Adopter Program as a model for proactive,
+    pre-launch user-readiness building for satellite Earth observing missions.
+
+    '
+  tags:
+  - SWOT
+  - capacity building
+  - satellite missions
+- id: doi:10.1016/j.envsoft.2022.105533
+  title: 'Reservoir Assessment Tool 2.0: Stakeholder driven improvements to satellite
+    remote sensing based reservoir monitoring'
+  authors:
+  - Pritam Das
+  - Faisal Hossain
+  - Shahzaib Khan
+  - Nishan Kumar Biswas
+  - Hyongki Lee
+  - Thanapon Piman
+  - Chinaporn Meechaiya
+  - Uttam Ghimire
+  - Kamal Hosen
+  publisher: Environmental Modelling &amp; Software
+  date: '2022-11-01'
+  link: https://doi.org/gwm2mg
+  orcid: 0000-0003-4795-4736
+  exclude:
+  - 10.22541/essoar.170049201.10192660/v1
+  - 10.5194/hess-2023-193
+  - 10.5194/gmd-2023-130
+  plugin: sources.py
+  file: sources.yaml
+  image: images/fig-rat2-400w.jpg
+  description: 'RAT 2.0 introduces a multi-sensor (optical + SAR) reservoir area estimation
+    technique at 1-5 day temporal resolution (TMS-OS) and improved hydrological model
+    calibration, developed with stakeholder feedback from the Mekong River Commission.
+
+    '
+  tags:
+  - reservoirs
+  - RAT
+  - remote sensing
+  - Mekong
+- id: doi:10.3389/feart.2019.00105
+  title: "Glacier-Surface Velocity Derived Ice Volume and Retreat Assessment in the\
+    \ Dhauliganga Basin, Central Himalaya \u2013 A Remote Sensing and Modeling Based\
+    \ Approach"
+  authors:
+  - Ashim Sattar
+  - Ajanta Goswami
+  - Anil V. Kulkarni
+  - Pritam Das
+  publisher: Frontiers in Earth Science
+  date: '2019-05-14'
+  link: https://doi.org/ggfsb5
+  orcid: 0000-0003-4795-4736
+  exclude:
+  - 10.22541/essoar.170049201.10192660/v1
+  - 10.5194/hess-2023-193
+  - 10.5194/gmd-2023-130
+  plugin: sources.py
+  file: sources.yaml
+  image: images/fig-glacier.jpg
+  buttons:
+  - type: pdf
+    link: https://www.frontiersin.org/articles/10.3389/feart.2019.00105/pdf
+  description: 'Estimates glacier ice volume and retreat in the Dhauliganga Basin
+    (Central Himalaya) using surface-velocity-based modelling and historical Landsat
+    imagery.
+
+    '
+  tags:
+  - glaciers
+  - Himalayas
+  - remote sensing
+  - ice volume
+- id: doi:10.1080/28375807.2025.2487762
+  title: 'Reservoir assessment tool (RAT): a Python package for monitoring the dynamic
+    state of reservoirs and analyzing dam operations'
+  authors:
+  - Sanchit Minocha
+  - Pritam Das
+  - Faisal Hossain
+  publisher: Digital Water
+  date: '2025-04-11'
+  link: https://doi.org/hb25mq
+  image: images/python-logo.svg
+  description: 'RAT packaged as a conda-installable Python library with a CLI and
+    hosted documentation at ratdocs.io.
+
+    '
+  tags:
+  - open source
+  - RAT
+  - software
+  - reservoirs
   plugin: sources.py
   file: sources.yaml

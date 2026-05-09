@@ -1,19 +1,19 @@
 # site properties and page defaults
-title: pritamd47
-subtitle: 
-description: An engaging 1-3 sentence description of your lab.
-header: images/background.jpg
-footer: images/background.jpg
+title: RIVER Lab
+subtitle: Remote Sensing, Informatics & Visualization for Earth Resources · IIT Bombay
+description: Research lab at CSRE, IIT Bombay working on satellite remote sensing, hydrological modelling, and water-resource management for regulated rivers and reservoirs.
+url: https://riverlab.in
+header: images/background-gev-1.jpeg
+footer: images/background-gev-1.jpeg
 proofer: false
 
 # site social media and other links
 links:
-  email: contact@pritamd47.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
+  email: pritam.das&#64;iitb.ac.in
+  orcid: 0000-0003-4795-4736
+  google-scholar: lrfA5goAAAAJ
   github: pritamd47
-  twitter: pritamd47
-  youtube: pritamd47
+  linkedin: pdas47
 
 ### jekyll settings
 
