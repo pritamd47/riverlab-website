@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-36 -36 72 72">
+  <defs>
+    <clipPath id="hexclip">
+      <polygon points="0,-22.5 19.5,-11.25 19.5,11.25 0,22.5 -19.5,11.25 -19.5,-11.25"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .wave {
+      stroke-dasharray: 12 6;
+      animation: flow 2.4s linear infinite;
+    }
+    @keyframes flow {
+      to { stroke-dashoffset: -18; }
+    }
+  </style>
+
+  <!-- Hex body -->
+  <polygon fill="#38bdf8"
+    points="0,-22.5 19.5,-11.25 19.5,11.25 0,22.5 -19.5,11.25 -19.5,-11.25"/>
+
+  <!-- Top highlight facet -->
+  <polygon fill="#bae6fd"
+    points="0,-22.5 19.5,-11.25 0,0 -19.5,-11.25"/>
+
+  <!-- Animated river waves (clipped to hex) -->
+  <g clip-path="url(#hexclip)">
+    <path class="wave" fill="none" stroke="white" stroke-width="3" opacity="0.8"
+      d="M-30 2 Q-15 -10 0 2 Q15 14 30 2"/>
+    <path class="wave" fill="none" stroke="white" stroke-width="2" opacity="0.4"
+      d="M-30 10 Q-15 -2 0 10 Q15 22 30 10"
+      style="animation-delay: -1.2s"/>
+  </g>
+
+  <!-- Hex outline -->
+  <polygon fill="none" stroke="currentColor" stroke-width="3"
+    points="0,-22.5 19.5,-11.25 19.5,11.25 0,22.5 -19.5,11.25 -19.5,-11.25"/>
+
+  <!-- Orbiting satellite dot -->
+  <g>
+    <animateTransform attributeName="transform" attributeType="XML"
+      type="rotate" from="0 0 0" to="360 0 0" dur="8s" repeatCount="indefinite"/>
+    <circle cx="0" cy="-31" r="2.5" fill="currentColor" opacity="0.85"/>
+  </g>
+</svg>
