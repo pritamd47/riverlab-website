@@ -13,7 +13,7 @@ nav:
 
 | Year | Role | Course | Institution |
 |------|------|--------|-------------|
-| 2026 | Instructor | GNR 804 — Distributed Hydrological Modeling | IIT Bombay |
-| 2025 | Instructor | GNR 619 — Natural Resources: Biosphere and Lithosphere | IIT Bombay |
+| 2026 | Instructor | GNR 804 – Distributed Hydrological Modeling | IIT Bombay |
+| 2025 | Instructor | GNR 619 – Natural Resources: Biosphere and Lithosphere | IIT Bombay |
 
 This space is earmarked for sharing class materials.
