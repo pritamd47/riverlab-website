@@ -20,10 +20,10 @@ We are a growing research group at CSRE, IIT Bombay. We work at the intersection
 
 We work closely with:
 
-- **Prof. Faisal Hossain** — University of Washington, Seattle (advisor and long-term collaborator)
-- **Asian Disaster Preparedness Centre (ADPC)** — Bangkok, Thailand
+- **Prof. Faisal Hossain** – University of Washington, Seattle
+- **Asian Disaster Preparedness Centre (ADPC)** – Bangkok, Thailand
 - **Mekong River Commission (MRC)**
-- **National Center for Atmospheric Research (NCAR)** — Boulder, CO
+- **National Center for Atmospheric Research (NCAR)** – Boulder, CO
 
 {% include section.html background="images/background-gev-1.jpeg" dark=true %}
 

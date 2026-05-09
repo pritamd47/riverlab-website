@@ -40,7 +40,7 @@ nav:
 Assistant Professor  
 Centre of Studies in Resources Engineering (CSRE)  
 Indian Institute of Technology Bombay  
-Powai, Mumbai — 400 076  
+Powai, Mumbai – 400 076  
 Maharashtra, India
 
 {% endcapture %}
