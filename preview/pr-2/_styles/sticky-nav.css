@@ -1,0 +1,35 @@
+.sticky-nav {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 100;
+  transform: translateY(-100%);
+  transition: transform 0.28s ease;
+  box-shadow: var(--shadow);
+}
+.sticky-nav::before {
+  display: none !important;
+}
+.sticky-nav.sticky-nav--visible {
+  transform: translateY(0);
+}
+@media (max-width: 700px) {
+  .sticky-nav {
+    justify-content: flex-end;
+  }
+  .sticky-nav .nav-toggle {
+    display: flex;
+  }
+  .sticky-nav .nav-toggle:not(:checked) + nav {
+    display: none;
+  }
+  .sticky-nav nav {
+    align-items: flex-end;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=sticky-nav.css.map */
