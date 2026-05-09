@@ -1,1 +1,1 @@
-Sitemap: http://riverlab.in/riverlab-website/sitemap.xml
+Sitemap: https://riverlab.in/sitemap.xml
