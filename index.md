@@ -1,7 +1,7 @@
 ---
 ---
 
-We are a research group at the [Centre of Studies in Resources Engineering (CSRE)](https://www.csre.iitb.ac.in/), [IIT Bombay](https://www.iitb.ac.in/). We develop satellite remote sensing methods and open-source computational tools to monitor, model, and forecast the dynamics of rivers and reservoirs across the globe — with a focus on regions where ground data is scarce.
+We are a research group at the [Centre of Studies in Resources Engineering (CSRE)](https://www.csre.iitb.ac.in/), [IIT Bombay](https://www.iitb.ac.in/). We develop satellite remote sensing methods and open-source computational tools to monitor, model, and forecast the dynamics of rivers and reservoirs across the globe – with a focus on regions where ground data is scarce.
 
 {%
   include button.html
@@ -34,7 +34,7 @@ We are a research group at the [Centre of Studies in Resources Engineering (CSRE
 
 {% capture text %}
 
-We use multi-satellite observations — optical, SAR, and radar altimetry — to track surface water storage dynamics of reservoirs worldwide. Our work integrates the recently launched SWOT mission with legacy sensors to push the frontier of reservoir monitoring accuracy and frequency.
+We use multi-satellite observations – optical, SAR, and radar altimetry – to track surface water storage dynamics of reservoirs worldwide. Our work integrates the recently launched SWOT mission with legacy sensors to push the frontier of reservoir monitoring accuracy and frequency.
 
 {%
   include button.html
@@ -57,7 +57,7 @@ We use multi-satellite observations — optical, SAR, and radar altimetry — to
 
 {% capture text %}
 
-We build satellite-driven frameworks — RAT, ResORR — to model how dams and reservoirs regulate downstream river flow. Our methods work without in-situ gauge data and are validated across transboundary river basins in South and Southeast Asia.
+We build satellite-driven frameworks – RAT, ResORR – to model how dams and reservoirs regulate downstream river flow. Our methods work without in-situ gauge data and are validated across transboundary river basins in South and Southeast Asia.
 
 {%
   include button.html
@@ -82,7 +82,7 @@ We build satellite-driven frameworks — RAT, ResORR — to model how dams and r
 
 {% capture text %}
 
-We explore how weather forecast products can be coupled with satellite-based reservoir tracking to enable forecast-informed dam operations — with particular focus on flood-risk reduction in hydropower-dominated, data-sparse river basins.
+We explore how weather forecast products can be coupled with satellite-based reservoir tracking to enable forecast-informed dam operations – with particular focus on flood-risk reduction in hydropower-dominated, data-sparse river basins.
 
 {%
   include button.html
