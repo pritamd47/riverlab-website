@@ -66,10 +66,10 @@
 
   <meta name="author" content="pritam-das">
   <meta property="og:type" content="article">
-  <meta property="og:updated_time" content="2026-05-09T06:56:58+00:00">
+  <meta property="og:updated_time" content="2026-05-09T11:22:44+00:00">
   <meta property="article:published_time" content="2025-03-01T00:00:00+00:00">
-  <meta property="article:modified_time" content="2026-05-09T06:56:58+00:00">
-  <meta name="revised" content="2026-05-09T06:56:58+00:00">
+  <meta property="article:modified_time" content="2026-05-09T11:22:44+00:00">
+  <meta name="revised" content="2026-05-09T11:22:44+00:00">
 
 
 <script type="application/ld+json">
@@ -79,7 +79,7 @@
       "@type": "BlogPosting",
       "author": { "@type": "Person", "name": "RAT published as a Python package in Digital Water" },
       "datePublished": "2025-03-01T00:00:00+00:00",
-      "dateModified": "2026-05-09T06:56:58+00:00",
+      "dateModified": "2026-05-09T11:22:44+00:00",
     
     "name": "RAT published as a Python package in Digital Water",
     "description": "Remote Sensing, Informatics &amp; Visualization for Earth Resources · IIT Bombay. Research lab at CSRE, IIT Bombay working on satellite remote sensing, hydrological modelling, and water-resource management for regulated rivers and reservoirs.",
@@ -346,42 +346,46 @@
     
       <span class="logo">
         
-          <svg xmlns="http://www.w3.org/2000/svg" viewbox="-36 -36 72 72">
+          <svg xmlns="http://www.w3.org/2000/svg" viewbox="-40 -40 80 80">
   <defs>
-    <clippath id="hexclip">
-      <polygon points="0,-22.5 19.5,-11.25 19.5,11.25 0,22.5 -19.5,11.25 -19.5,-11.25"></polygon>
+    <!-- Combined left + right face region for continuous waves -->
+    <clippath id="clip-sides">
+      <polygon points="-19.5,-11.25 19.5,-11.25 19.5,11.25 0,22.5 -19.5,11.25"></polygon>
     </clippath>
   </defs>
 
   <style>
     .wave {
-      stroke-dasharray: 12 6;
+      stroke-dasharray: 14 7;
       animation: flow 2.4s linear infinite;
     }
     @keyframes flow {
-      to { stroke-dashoffset: -18; }
+      to { stroke-dashoffset: -21; }
     }
   </style>
 
-  <!-- Hex body -->
-  <polygon fill="#38bdf8" points="0,-22.5 19.5,-11.25 19.5,11.25 0,22.5 -19.5,11.25 -19.5,-11.25"></polygon>
+  <!-- Left face – in shadow -->
+  <polygon fill="#075985" opacity="0.85" points="-19.5,-11.25 0,0 0,22.5 -19.5,11.25"></polygon>
 
-  <!-- Top highlight facet -->
-  <polygon fill="#bae6fd" points="0,-22.5 19.5,-11.25 0,0 -19.5,-11.25"></polygon>
+  <!-- Right face – partially lit -->
+  <polygon fill="#38bdf8" points="19.5,-11.25 19.5,11.25 0,22.5 0,0"></polygon>
 
-  <!-- Animated river waves (clipped to hex) -->
-  <g clip-path="url(#hexclip)">
-    <path class="wave" fill="none" stroke="white" stroke-width="3" opacity="0.8" d="M-30 2 Q-15 -10 0 2 Q15 14 30 2"></path>
-    <path class="wave" fill="none" stroke="white" stroke-width="2" opacity="0.4" d="M-30 10 Q-15 -2 0 10 Q15 22 30 10" style="animation-delay: -1.2s"></path>
+  <!-- Top face – directly lit from top-right -->
+  <polygon fill="#b0def7" points="0,-22.5 19.5,-11.25 0,0 -19.5,-11.25"></polygon>
+
+  <!-- Continuous river waves across both side faces -->
+  <g clip-path="url(#clip-sides)">
+    <path class="wave" fill="none" stroke="white" stroke-width="2.5" opacity="0.55" d="M-38 6 Q-19 -4 0 6 Q19 16 38 6"></path>
+    <path class="wave" fill="none" stroke="white" stroke-width="1.8" opacity="0.35" d="M-38 14 Q-19 4 0 14 Q19 24 38 14" style="animation-delay: -1.2s"></path>
   </g>
 
-  <!-- Hex outline -->
-  <polygon fill="none" stroke="currentColor" stroke-width="3" points="0,-22.5 19.5,-11.25 19.5,11.25 0,22.5 -19.5,11.25 -19.5,-11.25"></polygon>
+  <!-- Outer hex border only -->
+  <polygon fill="none" stroke="#64748b" stroke-width="2.3" stroke-linejoin="round" points="0,-22.5 19.5,-11.25 19.5,11.25 0,22.5 -19.5,11.25 -19.5,-11.25"></polygon>
 
   <!-- Orbiting satellite dot -->
   <g>
     <animatetransform attributename="transform" attributetype="XML" type="rotate" from="0 0 0" to="360 0 0" dur="8s" repeatcount="indefinite"></animatetransform>
-    <circle cx="0" cy="-31" r="2.5" fill="currentColor" opacity="0.85"></circle>
+    <circle cx="0" cy="-33" r="3.5" fill="#64748b" opacity="0.85"></circle>
   </g>
 </svg>
 
