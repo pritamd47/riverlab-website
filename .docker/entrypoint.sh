@@ -22,4 +22,12 @@ watchmedo shell-command \
     --recursive \
     --wait \
     --command="python3 _cite/cite.py" \
-    --patterns="_data/sources*;_data/orcid*;_data/pubmed*;_data/google-scholar*" \
+    --patterns="_data/sources*;_data/orcid*;_data/pubmed*;_data/google-scholar*" &
+
+# rerun bib sync whenever the Zotero export changes
+watchmedo shell-command \
+    --debug-force-polling \
+    --recursive \
+    --wait \
+    --command="python3 _cite/bib_sync.py" \
+    --patterns="db/my-publications.bib" \
