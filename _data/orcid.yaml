@@ -1,1 +1,5 @@
 - orcid: 0000-0003-4795-4736
+  exclude:
+    - 10.22541/essoar.170049201.10192660/v1  # ResORR preprint (published as envsoft.2024.106026)
+    - 10.5194/hess-2023-193                  # Kerala floods preprint (published as rse.2024.114149)
+    - 10.5194/gmd-2023-130                   # RAT 3.0 preprint (published as gmd-17-3137-2024)

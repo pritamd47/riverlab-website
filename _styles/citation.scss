@@ -18,18 +18,19 @@ $wrap: 800px;
 }
 
 .citation-image {
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: $thumb-size;
   flex-shrink: 0;
-  // box-shadow: var(--shadow);
+  padding: 10px;
 }
 
 .citation-image img {
-  position: absolute;
-  inset: 0;
   width: 100%;
   height: 100%;
   object-fit: contain;
+  object-position: center;
 }
 
 .citation-text {

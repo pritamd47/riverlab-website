@@ -4,8 +4,8 @@
   image: images/background-gev-1.jpeg
   link: https://ratdocs.io
   description: >
-    A conda-installable Python framework for globally monitoring reservoir operations —
-    inflow, storage change, evaporation, surface area, and outflow — using satellite remote sensing
+    A conda-installable Python framework for globally monitoring reservoir operations –
+    inflow, storage change, evaporation, surface area, and outflow – using satellite remote sensing
     and hydrological modelling. Adopted by the Mekong River Commission as an operational decision-support tool.
   repo: SERVIR/RATv3
   tags:

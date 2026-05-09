@@ -1,135 +1,168 @@
 # Publications for RIVER Lab
 # The cite pipeline resolves each DOI and pulls metadata automatically.
 
-# --- 2025 ---
-
 - id: doi:10.1029/2024EA004178
-  description: >
-    Evaluates SWOT's capability to estimate reservoir storage dynamics.
-    SWOT shows near-order-of-magnitude improvement in elevation RMSE over pre-SWOT approaches.
-  tags:
-    - remote sensing
-    - SWOT
-    - reservoirs
-    - surface water
+  image: images/fig-swot-spatial.jpg
+  buttons:
+  - type: pdf
+    link: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2024EA004178
+  - type: source
+    link: https://zenodo.org/doi/10.5281/zenodo.14984614
+  description: 'Evaluates SWOT''s capability to estimate reservoir storage dynamics.
+    SWOT shows near-order-of-magnitude improvement in elevation RMSE over pre-SWOT
+    approaches.
 
+    '
+  tags:
+  - remote sensing
+  - SWOT
+  - reservoirs
+  - surface water
 - id: doi:10.1061/JHYEFF.HEENG-6276
-  description: >
-    Explores forecast-informed reservoir operations in mountainous, ungauged basins
-    using GEFS precipitation forecasts and the fully satellite-based RAT framework,
+  image: images/fig-forecast-rat3.jpg
+  description: 'Explores forecast-informed reservoir operations in mountainous, ungauged
+    basins using GEFS precipitation forecasts and the fully satellite-based RAT framework,
     with application to the 2018 Kerala floods.
-  tags:
-    - reservoirs
-    - forecasting
-    - flood management
-    - RAT
 
+    '
+  tags:
+  - reservoirs
+  - forecasting
+  - flood management
+  - RAT
 - id: doi:10.1080/28375807.2025.2487762
-  description: >
-    RAT packaged as a conda-installable Python library with a CLI and hosted documentation at ratdocs.io.
+  image: images/python-logo.svg
+  description: 'RAT packaged as a conda-installable Python library with a CLI and
+    hosted documentation at ratdocs.io.
+
+    '
   tags:
-    - open source
-    - RAT
-    - software
-    - reservoirs
+  - open source
+  - RAT
+  - software
+  - reservoirs
+- id: doi:10.5194/gmd-17-3137-2024
+  image: images/fig-rat3.jpg
+  buttons:
+  - type: pdf
+    link: https://gmd.copernicus.org/articles/17/3137/2024/gmd-17-3137-2024.pdf
+  description: 'RAT 3.0: a scalable, user-friendly, open-source software platform
+    for satellite-based monitoring of reservoir storage and regulated river flow,
+    with improved hydrological modelling and multi-sensor remote sensing integration.
 
-# --- 2024 ---
-
+    '
+  tags:
+  - open source
+  - RAT
+  - software
+  - reservoirs
 - id: doi:10.1016/j.envsoft.2024.106026
-  description: >
-    ResORR: a globally scalable satellite-driven algorithm for modelling
-    regulated river flow due to upstream reservoir operations,
-    validated on the Cumberland River Basin (USA).
-  tags:
-    - reservoirs
-    - streamflow
-    - regulated rivers
-    - ResORR
-    - open source
+  image: images/fig-resorr-hydro.png
+  description: 'ResORR: a globally scalable satellite-driven algorithm for modelling
+    regulated river flow due to upstream reservoir operations, validated on the Cumberland
+    River Basin (USA).
 
+    '
+  tags:
+  - reservoirs
+  - streamflow
+  - regulated rivers
+  - ResORR
+  - open source
 - id: doi:10.1016/j.rse.2024.114149
-  description: >
-    RAT 3.0 applied to monitor 19 reservoirs during the 2018 Kerala floods,
-    demonstrating satellite-based tracking of reservoir state in a mountainous,
-    high-precipitation, data-sparse environment.
-  tags:
-    - reservoirs
-    - flood management
-    - RAT
-    - remote sensing
+  image: images/fig-kerala-floods-1-400w.jpg
+  description: 'RAT 3.0 applied to monitor 19 reservoirs during the 2018 Kerala floods,
+    demonstrating satellite-based tracking of reservoir state in a mountainous, high-precipitation,
+    data-sparse environment.
 
+    '
+  tags:
+  - reservoirs
+  - flood management
+  - RAT
+  - remote sensing
 - id: doi:10.1029/2024EF004815
-  description: >
-    Reconstructs 42-year surface-water-temperature records for the Columbia River Basin
-    using Landsat thermal infrared and a Random Forest model, revealing long-term downstream warming.
-  tags:
-    - river temperature
-    - machine learning
-    - regulated rivers
+  image: images/fig-thorr.jpg
+  buttons:
+  - type: pdf
+    link: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2024EF004815
+  description: 'Reconstructs 42-year surface-water-temperature records for the Columbia
+    River Basin using Landsat thermal infrared and a Random Forest model, revealing
+    long-term downstream warming.
 
+    '
+  tags:
+  - river temperature
+  - machine learning
+  - regulated rivers
 - id: doi:10.1016/j.envc.2023.100834
-  description: >
-    Uses snow persistence and the RSLE approach to assess snow-cover patterns
+  image: images/fig-sca.jpg
+  buttons:
+  - type: pdf
+    link: https://doi.org/10.1016/j.envc.2023.100834
+  description: 'Uses snow persistence and the RSLE approach to assess snow-cover patterns
     in the Upper Indus-Ganga-Brahmaputra basins over 2003-2021.
-  tags:
-    - snow cover
-    - Himalayas
-    - climate change
-    - remote sensing
 
+    '
+  tags:
+  - snow cover
+  - Himalayas
+  - climate change
+  - remote sensing
 - id: doi:10.1007/s00382-024-07280-5
-  description: >
-    MODIS-based analysis of annual and seasonal snow-cover area variability
-    in the Indus, Ganga, and Brahmaputra basins from 2003 to 2021,
-    correlated with ERA5 temperature and precipitation.
+  image: images/fig-scd.jpg
+  description: 'MODIS-based analysis of annual and seasonal snow-cover area variability
+    in the Indus, Ganga, and Brahmaputra basins from 2003 to 2021, correlated with
+    ERA5 temperature and precipitation.
+
+    '
   tags:
-    - snow cover
-    - Himalayas
-    - climate dynamics
-    - remote sensing
-
-# --- 2023 ---
-
-- id: doi:10.1109/JSTARS.2023.3250354
-  description: >
-    Global study of volume-estimation uncertainty in small lakes and wetlands
-    using Landsat 8, Sentinel-1/2, and citizen-science water-height data.
-  tags:
-    - lakes
-    - surface water
-    - uncertainty
-    - SWOT
-
-# --- 2022 ---
-
+  - snow cover
+  - Himalayas
+  - climate dynamics
+  - remote sensing
 - id: doi:10.1016/j.envsoft.2022.105533
-  description: >
-    RAT 2.0 introduces a multi-sensor (optical + SAR) reservoir area technique
-    at 1–5 day temporal resolution and improved hydrological model calibration,
-    developed with stakeholder feedback from the Mekong River Commission.
-  tags:
-    - reservoirs
-    - RAT
-    - remote sensing
-    - Mekong
+  image: images/fig-rat2-400w.jpg
+  description: 'RAT 2.0 introduces a multi-sensor (optical + SAR) reservoir area estimation technique
+    at 1-5 day temporal resolution (TMS-OS) and improved hydrological model calibration, developed
+    with stakeholder feedback from the Mekong River Commission.
 
+    '
+  tags:
+  - reservoirs
+  - RAT
+  - remote sensing
+  - Mekong
 - id: doi:10.1029/2022AV000680
-  description: >
-    Documents the NASA SWOT Early Adopter Program as a model for proactive,
+  image: images/fig-swot-early-adopters-400w.jpg
+  buttons:
+  - type: pdf
+    link: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2022AV000680
+  description: 'Documents the NASA SWOT Early Adopter Program as a model for proactive,
     pre-launch user-readiness building for satellite Earth observing missions.
+
+    '
   tags:
-    - SWOT
-    - capacity building
-    - satellite missions
-
-# --- 2019 ---
-
+  - SWOT
+  - capacity building
+  - satellite missions
 - id: doi:10.3389/feart.2019.00105
-  description: >
-    Estimates glacier ice volume and retreat in the Dhauliganga Basin (Central Himalaya)
-    using surface-velocity-based modelling and historical Landsat/CORONA imagery.
+  image: images/fig-glacier.jpg
+  buttons:
+  - type: pdf
+    link: https://www.frontiersin.org/articles/10.3389/feart.2019.00105/pdf
+  description: 'Estimates glacier ice volume and retreat in the Dhauliganga Basin
+    (Central Himalaya) using surface-velocity-based modelling and historical Landsat
+    imagery.
+
+    '
   tags:
-    - glaciers
-    - Himalayas
-    - remote sensing
-    - ice volume
+  - glaciers
+  - Himalayas
+  - remote sensing
+  - ice volume
+- id: doi:10.1109/JSTARS.2023.3250354
+  image: images/fig-vol-uncert.jpg
+  buttons:
+    - type: pdf
+      link: https://ieeexplore.ieee.org/ielx7/4609443/4609444/10056121.pdf

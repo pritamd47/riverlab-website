@@ -13,13 +13,13 @@ Our research applies satellite observations and computational modelling to under
 
 ## Research Themes
 
-**Global Reservoir Dynamics from Space** — We integrate optical, SAR, and radar altimetry data to track surface-water storage change in reservoirs worldwide, including with the SWOT satellite mission.
+**Global Reservoir Dynamics from Space** – We integrate optical, SAR, and radar altimetry data to track surface-water storage change in reservoirs worldwide.
 
-**Regulated River Hydrology & Streamflow Modelling** — We build satellite-driven algorithms (RAT, ResORR) to model how upstream reservoir operations regulate downstream river flow across transboundary basins.
+**Regulated River Hydrology & Streamflow Modelling** – We build model how anthropogenic activities regulate downstream river flow across transboundary basins.
 
-**Forecast-Informed Water Management** — We couple weather-forecast products with satellite-based reservoir tracking to enable proactive dam operations for flood-risk reduction.
+**Forecast-Informed Water Management** – We couple weather-forecasts with satellite-based reservoir tracking to enable proactive dam operations for flood-risk reduction.
 
-**Open Hydrological Software** — We develop and maintain community Python packages (RAT, ResORR) for reproducible, scalable hydrological analysis.
+**Open Hydrological Software** – We develop and maintain community Python packages (RAT, ResORR) for reproducible, scalable hydrological analysis.
 
 {% include section.html %}
 
@@ -39,3 +39,9 @@ Our research applies satellite observations and computational modelling to under
 {% include search-info.html %}
 
 {% include list.html data="citations" component="citation" style="rich" %}
+
+{% include section.html %}
+
+## Conference Proceedings
+
+{% include list.html data="proceedings" component="citation" style="rich" %}

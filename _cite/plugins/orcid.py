@@ -138,6 +138,11 @@ def main(entry):
         # copy fields from entry to source
         source.update(entry)
 
+        # skip excluded ids
+        exclude = [str(e).lower() for e in get_safe(entry, "exclude", [])]
+        if source.get("id", "").lower().removeprefix("doi:") in exclude:
+            continue
+
         # add source to list
         sources.append(source)
 
