@@ -38,13 +38,13 @@
   </g>
 
   <!-- Outer hex border only -->
-  <polygon fill="none" stroke="#64748b" stroke-width="2.3" stroke-linejoin="round"
+  <polygon fill="none" stroke="#cbd5e1" stroke-width="2.3" stroke-linejoin="round"
     points="0,-22.5 19.5,-11.25 19.5,11.25 0,22.5 -19.5,11.25 -19.5,-11.25"/>
 
   <!-- Orbiting satellite dot -->
   <g>
     <animateTransform attributeName="transform" attributeType="XML"
       type="rotate" from="0 0 0" to="360 0 0" dur="8s" repeatCount="indefinite"/>
-    <circle cx="0" cy="-33" r="3.5" fill="#64748b" opacity="0.85"/>
+    <circle cx="0" cy="-33" r="3.5" fill="#cbd5e1" opacity="0.85"/>
   </g>
 </svg>
