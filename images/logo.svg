@@ -1,45 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-36 -36 72 72">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 -40 80 80">
   <defs>
-    <clipPath id="hexclip">
-      <polygon points="0,-22.5 19.5,-11.25 19.5,11.25 0,22.5 -19.5,11.25 -19.5,-11.25"/>
+    <!-- Combined left + right face region for continuous waves -->
+    <clipPath id="clip-sides">
+      <polygon points="-19.5,-11.25 19.5,-11.25 19.5,11.25 0,22.5 -19.5,11.25"/>
     </clipPath>
   </defs>
 
   <style>
     .wave {
-      stroke-dasharray: 12 6;
+      stroke-dasharray: 14 7;
       animation: flow 2.4s linear infinite;
     }
     @keyframes flow {
-      to { stroke-dashoffset: -18; }
+      to { stroke-dashoffset: -21; }
     }
   </style>
 
-  <!-- Hex body -->
-  <polygon fill="#38bdf8"
-    points="0,-22.5 19.5,-11.25 19.5,11.25 0,22.5 -19.5,11.25 -19.5,-11.25"/>
+  <!-- Left face – in shadow -->
+  <polygon fill="#075985" opacity="0.85"
+    points="-19.5,-11.25 0,0 0,22.5 -19.5,11.25"/>
 
-  <!-- Top highlight facet -->
-  <polygon fill="#bae6fd"
+  <!-- Right face – partially lit -->
+  <polygon fill="#38bdf8"
+    points="19.5,-11.25 19.5,11.25 0,22.5 0,0"/>
+
+  <!-- Top face – directly lit from top-right -->
+  <polygon fill="#b0def7"
     points="0,-22.5 19.5,-11.25 0,0 -19.5,-11.25"/>
 
-  <!-- Animated river waves (clipped to hex) -->
-  <g clip-path="url(#hexclip)">
-    <path class="wave" fill="none" stroke="white" stroke-width="3" opacity="0.8"
-      d="M-30 2 Q-15 -10 0 2 Q15 14 30 2"/>
-    <path class="wave" fill="none" stroke="white" stroke-width="2" opacity="0.4"
-      d="M-30 10 Q-15 -2 0 10 Q15 22 30 10"
+  <!-- Continuous river waves across both side faces -->
+  <g clip-path="url(#clip-sides)">
+    <path class="wave" fill="none" stroke="white" stroke-width="2.5" opacity="0.55"
+      d="M-38 6 Q-19 -4 0 6 Q19 16 38 6"/>
+    <path class="wave" fill="none" stroke="white" stroke-width="1.8" opacity="0.35"
+      d="M-38 14 Q-19 4 0 14 Q19 24 38 14"
       style="animation-delay: -1.2s"/>
   </g>
 
-  <!-- Hex outline -->
-  <polygon fill="none" stroke="currentColor" stroke-width="3"
+  <!-- Outer hex border only -->
+  <polygon fill="none" stroke="#cbd5e1" stroke-width="2.3" stroke-linejoin="round"
     points="0,-22.5 19.5,-11.25 19.5,11.25 0,22.5 -19.5,11.25 -19.5,-11.25"/>
 
   <!-- Orbiting satellite dot -->
   <g>
     <animateTransform attributeName="transform" attributeType="XML"
       type="rotate" from="0 0 0" to="360 0 0" dur="8s" repeatCount="indefinite"/>
-    <circle cx="0" cy="-31" r="2.5" fill="currentColor" opacity="0.85"/>
+    <circle cx="0" cy="-33" r="3.5" fill="#cbd5e1" opacity="0.85"/>
   </g>
 </svg>
