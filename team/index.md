@@ -13,6 +13,7 @@ We are a growing research group at CSRE, IIT Bombay. We work at the intersection
 
 {% include list.html data="members" component="portrait" filter="role == 'principal-investigator'" %}
 {% include list.html data="members" component="portrait" filter="role == 'phd'" %}
+{% include list.html data="members" component="portrait" filter="role == 'intern'" %}
 
 {% include section.html %}
 
