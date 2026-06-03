@@ -5,7 +5,7 @@ nav:
   tooltip: Open-source tools, dashboards, and more
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Software & Models
+# {% include icon.html icon="fa-solid fa-wrench" %}Tools & Projects
 
 We build open-source software and operational tools for satellite-based water-resource monitoring. Our packages are designed to be globally scalable, reproducible, and accessible to researchers and water managers alike.
 

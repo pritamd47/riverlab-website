@@ -1,7 +1,7 @@
 - title: Reservoir Assessment Tool (RAT)
   subtitle: Python package · ratdocs.io
   group: featured
-  image: images/background-gev-1.jpeg
+  image: images/fig-rat3.jpg
   link: https://ratdocs.io
   description: >
     A conda-installable Python framework for globally monitoring reservoir operations –
@@ -16,7 +16,7 @@
 - title: ResORR
   subtitle: Reservoir Operations driven River Regulation
   group: featured
-  image: images/background-gev-1.jpeg
+  image: images/fig-resorr-hydro.png
   link: https://doi.org/10.1016/j.envsoft.2024.106026
   description: >
     A globally scalable satellite-data-driven algorithm that predicts regulated river flow
@@ -29,7 +29,7 @@
 
 - title: RAT-Mekong Decision Support System
   subtitle: Operational monitoring for the Mekong Basin
-  image: images/background-gev-1.jpeg
+  image: images/fig-rat2.jpg
   link: https://depts.washington.edu/saswe/mekong/
   description: >
     An operational dashboard for near-real-time monitoring of reservoir dynamics

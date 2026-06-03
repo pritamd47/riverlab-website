@@ -61,7 +61,7 @@ We build satellite-driven frameworks – RAT, ResORR – to model how dams and r
 
 {%
   include button.html
-  link="projects"
+  link="software-and-models"
   text="Browse our tools"
   icon="fa-solid fa-arrow-right"
   flip=true
@@ -73,7 +73,7 @@ We build satellite-driven frameworks – RAT, ResORR – to model how dams and r
 {%
   include feature.html
   image="images/desert-reservoir-nasa.jpg"
-  link="projects"
+  link="software-and-models"
   title="Regulated River Hydrology & Open Software"
   flip=true
   style="bare"
