@@ -49,7 +49,7 @@ We use multi-satellite observations – optical, SAR, and radar altimetry – to
 
 {%
   include feature.html
-  image="images/resrevoir-unsplash-800w.jpg"
+  image="images/resrevoir-unsplash.jpg"
   link="research"
   title="Global Reservoir Dynamics from Space"
   text=text
@@ -72,7 +72,7 @@ We build satellite-driven frameworks – RAT, ResORR – to model how dams and r
 
 {%
   include feature.html
-  image="images/desert-reservoir-nasa-800w.jpg"
+  image="images/desert-reservoir-nasa.jpg"
   link="projects"
   title="Regulated River Hydrology & Open Software"
   flip=true
@@ -97,7 +97,7 @@ We explore how weather forecast products can be coupled with satellite-based res
 
 {%
   include feature.html
-  image="images/cyclone-nasa-800w.jpg"
+  image="images/cyclone-nasa.jpg"
   link="research"
   title="Forecast-Informed Water Management"
   text=text
