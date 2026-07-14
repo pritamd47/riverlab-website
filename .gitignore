@@ -1,5 +1,11 @@
 _site
 db/
+
+# auto-generated responsive image variants
+images/*-72w.*
+images/*-400w.*
+images/*-800w.*
+images/*-1200w.*
 .sass-cache
 .jekyll-cache
 .jekyll-metadata

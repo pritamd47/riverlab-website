@@ -7,6 +7,9 @@ ls
 # run cite process
 python3 _cite/cite.py
 
+# generate responsive image variants for all images on startup
+python3 _cite/image_sync.py
+
 # run jekyll serve in hot-reload mode
 # rerun whenever _config.yaml changes (jekyll hot-reload doesn't work with this file)
 watchmedo auto-restart \
@@ -30,4 +33,13 @@ watchmedo shell-command \
     --recursive \
     --wait \
     --command="python3 _cite/bib_sync.py" \
-    --patterns="db/my-publications.bib" \
+    --patterns="db/my-publications.bib" &
+
+# generate variants whenever a new image is added
+watchmedo shell-command \
+    --debug-force-polling \
+    --recursive \
+    --wait \
+    --command="python3 _cite/image_sync.py" \
+    --patterns="images/*.jpg;images/*.jpeg;images/*.png" \
+    images/

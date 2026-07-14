@@ -26,12 +26,27 @@ jobs:
 
       - name: Checkout branch contents
         uses: actions/checkout@v4
+        with:
+          lfs: true
 
       - name: Install Ruby packages
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.1"
           bundler-cache: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+          cache-dependency-path: "_cite/requirements.txt"
+
+      - name: Install Python packages
+        run: python -m pip install --upgrade --requirement ./_cite/requirements.txt
+
+      - name: Generate responsive image variants
+        run: python _cite/image_sync.py
 
       - name: Get Pages url
         id: pages

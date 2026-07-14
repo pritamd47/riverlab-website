@@ -70,7 +70,7 @@
   - ResORR
   - open source
 - id: doi:10.1016/j.rse.2024.114149
-  image: images/fig-kerala-floods-1-400w.jpg
+  image: images/fig-kerala-floods-1.jpg
   description: 'RAT 3.0 applied to monitor 19 reservoirs during the 2018 Kerala floods,
     demonstrating satellite-based tracking of reservoir state in a mountainous, high-precipitation,
     data-sparse environment.
@@ -122,7 +122,7 @@
   - climate dynamics
   - remote sensing
 - id: doi:10.1016/j.envsoft.2022.105533
-  image: images/fig-rat2-400w.jpg
+  image: images/fig-rat2.jpg
   description: 'RAT 2.0 introduces a multi-sensor (optical + SAR) reservoir area estimation technique
     at 1-5 day temporal resolution (TMS-OS) and improved hydrological model calibration, developed
     with stakeholder feedback from the Mekong River Commission.
@@ -134,7 +134,7 @@
   - remote sensing
   - Mekong
 - id: doi:10.1029/2022AV000680
-  image: images/fig-swot-early-adopters-400w.jpg
+  image: images/fig-swot-early-adopters.jpg
   buttons:
   - type: pdf
     link: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2022AV000680

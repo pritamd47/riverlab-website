@@ -18,8 +18,18 @@
         class="citation-image"
         aria-label="{{ citation.title | default: "citation link" | regex_strip }}"
       >
+        {% assign _cimg = citation.image %}
+        {% assign _cparts = _cimg | split: "." %}
+        {% assign _cext = _cparts | last %}
+        {% assign _cbase = _cparts | pop | join: "." %}
+        {% assign _cimg_400 = _cbase | append: "-400w." | append: _cext %}
+        {% assign _cimg_800 = _cbase | append: "-800w." | append: _cext %}
         <img
-          src="{{ citation.image | relative_url | uri_escape }}"
+          src="{{ _cimg | relative_url | uri_escape }}"
+          srcset="{{ _cimg_400 | relative_url | uri_escape }} 400w,
+                  {{ _cimg_800 | relative_url | uri_escape }} 800w,
+                  {{ _cimg     | relative_url | uri_escape }} 1200w"
+          sizes="180px"
           alt="{{ citation.title | default: "citation image" | regex_strip }}"
           loading="lazy"
           {% include fallback.html %}
