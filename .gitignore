@@ -1,5 +1,6 @@
 _site
 db/
+_cite/.cache/
 
 # auto-generated responsive image variants
 images/*-72w.*
