@@ -17,6 +17,12 @@ We are a growing research group at CSRE, IIT Bombay. We work at the intersection
 
 {% include section.html %}
 
+## Alumni
+
+{% include list.html data="members" component="portrait" filter="role == 'alumni'" %}
+
+{% include section.html %}
+
 ## Collaborators
 
 We work closely with:
