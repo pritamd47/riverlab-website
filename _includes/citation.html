@@ -10,7 +10,7 @@
 
 <div class="citation-container">
   <div class="citation">
-    {% if include.style == "rich" %}
+    {% if include.style == "rich" and citation.image %}
       <a
         {% if citation.link %}
           href="{{ citation.link | relative_url | uri_escape }}"
@@ -23,7 +23,9 @@
         {% assign _cext = _cparts | last %}
         {% assign _cbase = _cparts | pop | join: "." %}
         {% assign _cimg_400 = _cbase | append: "-400w." | append: _cext %}
+        {% assign _cimg_400 = _cimg_400 | file_exists | default: _cimg %}
         {% assign _cimg_800 = _cbase | append: "-800w." | append: _cext %}
+        {% assign _cimg_800 = _cimg_800 | file_exists | default: _cimg %}
         <img
           src="{{ _cimg | relative_url | uri_escape }}"
           srcset="{{ _cimg_400 | relative_url | uri_escape }} 400w,
