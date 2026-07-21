@@ -56,3 +56,7 @@ Post content in Markdown goes here.
 ---
 
 This website is built using the [Lab Website Template](https://github.com/greenelab/lab-website-template) (DOI: [10.5281/zenodo.17228741](https://doi.org/10.5281/zenodo.17228741)) — if you are looking to create your own lab website, start there.
+
+---
+
+Docker is the easiest option to build the website locally for development. Run: `.docker/run.sh`.
