@@ -27,6 +27,11 @@ jobs:
       - name: Checkout branch contents
         uses: actions/checkout@v4
         with:
+          # explicit ref, not the default (pinned to the SHA that triggered
+          # this run) -- update-citations/update-cv commit to main earlier
+          # in this same workflow, and build-site needs those new commits,
+          # not the stale pre-commit snapshot
+          ref: main
           lfs: true
 
       - name: Install Ruby packages
