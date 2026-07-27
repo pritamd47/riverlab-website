@@ -56,6 +56,11 @@ home-page:
   text: Home Page
   tooltip: Home page
 
+cv:
+  icon: fa-solid fa-file-pdf
+  text: CV
+  tooltip: Download CV
+
 email:
   icon: fa-solid fa-envelope
   text: Email

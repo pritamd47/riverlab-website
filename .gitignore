@@ -7,6 +7,15 @@ images/*-72w.*
 images/*-400w.*
 images/*-800w.*
 images/*-1200w.*
+
+# CV is typeset by CI; ignore local build output/artifacts
+cv/main.pdf
+cv/*.aux
+cv/*.log
+cv/*.out
+cv/*.fls
+cv/*.fdb_latexmk
+cv/*.synctex.gz
 .sass-cache
 .jekyll-cache
 .jekyll-metadata

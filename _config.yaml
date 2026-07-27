@@ -15,6 +15,12 @@ links:
   github: pritamd47
   linkedin: pdas47
 
+# CV sync settings, used by cv/sync.sh (not needed in CI — it only pulls in
+# a local, machine-specific master copy; typesetting itself doesn't depend on it)
+cv:
+  source: /Users/pdas47/Library/CloudStorage/Dropbox/Documents/career/CV and Resumes/latex/main.tex
+  dest: cv/main.tex
+
 ### jekyll settings
 
 # front matter defaults

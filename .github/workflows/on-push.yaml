@@ -20,6 +20,12 @@ jobs:
     uses: ./.github/workflows/update-citations.yaml
     secrets: inherit
 
+  update-cv:
+    # skip first run because nothing enabled or setup yet
+    if: github.run_number != 1
+    uses: ./.github/workflows/update-cv.yaml
+    secrets: inherit
+
   build-site:
-    needs: update-citations
+    needs: [update-citations, update-cv]
     uses: ./.github/workflows/build-site.yaml

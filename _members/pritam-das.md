@@ -7,6 +7,7 @@ aliases:
   - P. Das
   - Pritam Das
 links:
+  cv: cv/main.pdf
   home-page: https://riverlab.in
   email: pritam.das&#64;iitb.ac.in
   orcid: 0000-0003-4795-4736
