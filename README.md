@@ -55,6 +55,26 @@ Post content in Markdown goes here.
 
 ---
 
+## Updating the CV
+
+The master CV is a LaTeX file kept outside this repo. Its location is configured under `cv:` in `_config.yaml`:
+
+```yaml
+cv:
+  source: /path/to/master/main.tex
+  dest: cv/main.tex
+```
+
+1. Edit the CV at its master location, as usual.
+2. Pull the latest version into the repo and stage it:
+   ```sh
+   ./cv/sync.sh
+   ```
+3. Commit and push. On push, `.github/workflows/update-cv.yaml` typesets `cv/main.tex` with `latexmk` and commits the compiled `cv/main.pdf` back to `main` — no local LaTeX install required.
+4. The "CV" button on Pritam's team profile (`_members/pritam-das.md`) links to `cv/main.pdf`.
+
+---
+
 This website is built using the [Lab Website Template](https://github.com/greenelab/lab-website-template) (DOI: [10.5281/zenodo.17228741](https://doi.org/10.5281/zenodo.17228741)) — if you are looking to create your own lab website, start there.
 
 ---
