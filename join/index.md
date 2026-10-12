@@ -14,7 +14,7 @@ We are actively looking for motivated students and researchers to join our group
 ## Open Positions
 
 **PhD**
-Applications are currently closed for Summer 2026. Prospective PhD students should apply keep any eye on the [CSRE PhD admissions page](https://www.csre.iitb.ac.in/admissions.php#phdadmissions) for future calls for intake.
+Applications are open for the January 2027 session. We have three funded positions: one on an IITB-funded project and two as IITB Teaching Assistantships. The last date to apply is 17 October 2026, extended till 21 October 2026 with a late fee. See the [announcement](/2026/10/12/phd-positions-january-2027.html) for the research topics and details, and apply through the [IIT Bombay application portal](https://portal.iitb.ac.in/). Future calls for intake will be listed on the [CSRE PhD admissions page](https://www.csre.iitb.ac.in/admissions.php#phdadmissions).
 
 **MTech / Dual Degree Project**
 IIT Bombay students interested in project work are welcome to get in touch directly by email.
@@ -61,6 +61,6 @@ Send an email to **pritam.das [at] iitb.ac.in** with the subject line **"Prospec
   link="pritam.das&#64;iitb.ac.in"
 %}
 
-Note that **PhD positions are filled through the formal IIT Bombay admissions process** – please apply through the official portal and indicate your preference while applying.
+Note that **PhD positions are filled through the formal IIT Bombay admissions process** – please apply through the [official portal](https://portal.iitb.ac.in/), select CSRE, and mention RIVER Lab and your topic of interest while applying.
 
 {% include section.html %}
